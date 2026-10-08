@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grid Artist — Support</title>
+<meta name="description" content="Support and help for Grid Artist, the iPhone and iPad app that turns any photo into a step-by-step drawing grid.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="icon">
+    <svg width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Grid Artist">
+      <rect x="6" y="6" width="52" height="52" rx="8" fill="none" stroke="#ff2d55" stroke-width="4"/>
+      <path d="M23 6v52M40 6v52M6 23h52M6 40h52" stroke="#ff2d55" stroke-width="3" opacity="0.55"/>
+      <path d="M12 48c8-24 20-30 30-18" stroke="#26262c" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <h1>Grid Artist</h1>
+  <p>Draw anything, one square at a time.</p>
+  <nav class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="https://github.com/RaghavaNaidu46/GridArtistApp/issues/new">Report an issue</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>How Grid Artist works</h2>
+    <p>The grid method is how artists have copied proportions accurately for
+      centuries: divide the reference into squares, then draw what you see inside
+      one square at a time. Grid Artist does the dividing, the measuring and the
+      bookkeeping so you can spend your attention on the drawing.</p>
+    <ol>
+      <li>Add a reference photo from your library, the camera, or Files.</li>
+      <li>Set the grid — or let the app suggest a size based on how much detail
+        your photo actually has.</li>
+      <li>Tap a square. It fills the screen, and everything else dims.</li>
+      <li>Copy it onto your paper, mark it done, and the next square comes up.</li>
+      <li>Export or print the gridded sheet at the exact paper size you're using.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Common questions</h2>
+
+    <h3>What grid size should I use?</h3>
+    <p>Open the <strong>Assist</strong> tab and the app measures the edge detail in
+      your photo and suggests a size, with a short explanation of why. Simple
+      shapes get a coarse grid; fine detail gets a finer one. You can always
+      override it — rows and columns are independent, and the square-cell lock
+      keeps them matched if you want.</p>
+
+    <h3>How do I get the grid on my paper?</h3>
+    <p>Two ways. Either print the <strong>Blank Grid</strong> export at your paper
+      size and draw on it directly, or draw the grid on your own paper and use the
+      app purely as the reference. Set the paper size under <strong>Guides →
+      Paper</strong> first so the printed sheet matches what you're drawing on.</p>
+
+    <h3>Can I print one square per page?</h3>
+    <p>Yes. Choose <strong>Square-by-Square Sheet</strong> in Export. You get a
+      cover page with the whole gridded reference, then one page per square,
+      printed large and labelled.</p>
+
+    <h3>Does it work with Apple Pencil?</h3>
+    <p>Yes. The Draw workspace is a PencilKit canvas, so you get pressure, tilt,
+      palm rejection, the ruler, the system tool picker and unlimited undo. Finger
+      drawing is on by default; turn it off from the ⋯ menu if you want strict palm
+      rejection with a Pencil.</p>
+
+    <h3>What do the AI features do?</h3>
+    <p>Four things: suggest a grid size, crop to the subject your eye lands on,
+      trace the photo into line art, and lift the subject off its background. For
+      portraits there is also a proportion-guide detector that marks the eye line,
+      nose and mouth. All of it runs on your device using Apple's Vision and Core
+      Image frameworks — nothing is uploaded, and it all works offline.</p>
+
+    <h3>Where are my projects stored?</h3>
+    <p>On your device, in the app's own storage. Deleting the app deletes them, so
+      export anything you want to keep.</p>
+
+    <h3>My line art came out sparse</h3>
+    <p>Line tracing needs contrast to find edges. Raise <strong>Contrast</strong>
+      in the Photo tab, or try the <strong>High Contrast</strong> or
+      <strong>Threshold</strong> style first, then run Line Art again.</p>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <span class="pill">Photos, camera &amp; Files import</span>
+    <span class="pill">Crop, rotate, flip</span>
+    <span class="pill">Independent rows &amp; columns</span>
+    <span class="pill">Major grid lines</span>
+    <span class="pill">A1 / numbered / in-cell labels</span>
+    <span class="pill">Rule of thirds &amp; golden ratio</span>
+    <span class="pill">Cell Focus mode</span>
+    <span class="pill">Progress tracking</span>
+    <span class="pill">Apple Pencil canvas</span>
+    <span class="pill">Trace underlay</span>
+    <span class="pill">Suggested grid size</span>
+    <span class="pill">Line art &amp; subject isolation</span>
+    <span class="pill">PNG / JPEG / PDF export</span>
+    <span class="pill">AirPrint</span>
+    <span class="pill">A3–A5, Letter, Legal, custom</span>
+    <span class="pill">iPhone &amp; iPad</span>
+  </section>
+
+  <section>
+    <h2>Get in touch</h2>
+    <p>Found a bug, or want a feature? Open an issue — it is the fastest way to
+      reach me, and other artists can see it too.</p>
+    <p><a href="https://github.com/RaghavaNaidu46/GridArtistApp/issues/new">Open an
+      issue on GitHub</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>Grid Artist · <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
